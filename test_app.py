@@ -5,4 +5,4 @@ def get_count():
 
 def test_count():
     count = get_count()
-    assert count == 0   
+    assert count == 0
