@@ -1,4 +1,4 @@
-from app import app
+from app import app, read_count
 
 def test_count():
     app.config['TESTING'] = True
