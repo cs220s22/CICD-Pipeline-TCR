@@ -1,8 +1,5 @@
-# content of test_app.py
-
-def get_count():
-    return 0
+from app import app
 
 def test_count():
-    count = get_count()
+    count = read_count()
     assert count == 0
