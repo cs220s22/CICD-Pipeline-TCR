@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 def read_count():
     try:
-        with open('count.txt', 'r') as f:
+        with open('count.txt', 'r', 'utf8') as f:
             count = int(f.read())
         return count
     except IOError:
@@ -11,7 +11,7 @@ def read_count():
 
 
 def save_count(count):
-    with open('count.txt', 'w') as f:
+    with open('count.txt', 'w', 'utf8') as f:
         f.write(str(count))
 
 
