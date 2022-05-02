@@ -21,4 +21,4 @@ jobs:
         pip install flask
     - name: Analysing the code with pylint
       run: |
-        pylint -d invalid-name -d missing-module-docstring -d missing-function-docstring -d consider-using* $(git ls-files '*.py')
+        pylint -d invalid-name -d missing-module-docstring -d missing-function-docstring -d consider-using-f-string $(git ls-files '*.py')
