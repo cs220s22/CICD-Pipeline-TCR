@@ -16,4 +16,3 @@ jobs:
           heroku_app_name: "python-tcr"
           heroku_email: "abatot@moravian.edu"
           usedocker: true
-          delay: 6
